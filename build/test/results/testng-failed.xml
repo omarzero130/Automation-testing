@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [yarab2]">
+  <test name="TimeOut(failed)">
+    <classes>
+      <class name="TEST.Testcases">
+        <methods>
+          <include name="closing_browser"/>
+          <include name="select_item"/>
+          <include name="checkout_address"/>
+          <include name="checkout_summary"/>
+          <include name="checkout_shipping"/>
+          <include name="checkout_CONFIRM"/>
+          <include name="Email_Creation"/>
+          <include name="openingbrowser"/>
+          <include name="create_Account"/>
+          <include name="Logout"/>
+          <include name="Shopping_assertion"/>
+          <include name="checkout_payment"/>
+          <include name="go_to_shopping"/>
+          <include name="SIGN_IN_link"/>
+          <include name="homeTitleAssert"/>
+          <include name="LoginPageTitle"/>
+        </methods>
+      </class> <!-- TEST.Testcases -->
+    </classes>
+  </test> <!-- TimeOut(failed) -->
+</suite> <!-- Failed suite [yarab2] -->

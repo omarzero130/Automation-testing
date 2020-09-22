@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="yarab2" duration-ms="38669" started-at="2020-06-02T23:39:08Z" finished-at="2020-06-02T23:39:47Z">
+    <groups>
+    </groups>
+    <test name="TimeOut" duration-ms="38669" started-at="2020-06-02T23:39:08Z" finished-at="2020-06-02T23:39:47Z">
+      <class name="TEST.Testcases">
+        <test-method status="PASS" signature="openingbrowser()[pri:0, instance:TEST.Testcases@5b1d2887]" name="openingbrowser" is-config="true" duration-ms="11884" started-at="2020-06-03T01:39:08Z" finished-at="2020-06-03T01:39:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingbrowser -->
+        <test-method status="PASS" signature="homeTitleAssert()[pri:0, instance:TEST.Testcases@5b1d2887]" name="homeTitleAssert" duration-ms="10" started-at="2020-06-03T01:39:20Z" finished-at="2020-06-03T01:39:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeTitleAssert -->
+        <test-method status="PASS" signature="SIGN_IN_link()[pri:0, instance:TEST.Testcases@5b1d2887]" name="SIGN_IN_link" duration-ms="2690" started-at="2020-06-03T01:39:20Z" depends-on-methods="TEST.Testcases.homeTitleAssert" finished-at="2020-06-03T01:39:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SIGN_IN_link -->
+        <test-method status="PASS" signature="LoginPageTitle()[pri:0, instance:TEST.Testcases@5b1d2887]" name="LoginPageTitle" duration-ms="13" started-at="2020-06-03T01:39:23Z" depends-on-methods="TEST.Testcases.SIGN_IN_link" finished-at="2020-06-03T01:39:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageTitle -->
+        <test-method status="PASS" signature="Email_Creation()[pri:0, instance:TEST.Testcases@5b1d2887]" name="Email_Creation" duration-ms="741" started-at="2020-06-03T01:39:23Z" depends-on-methods="TEST.Testcases.LoginPageTitle" finished-at="2020-06-03T01:39:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Email_Creation -->
+        <test-method status="PASS" signature="create_Account()[pri:0, instance:TEST.Testcases@5b1d2887]" name="create_Account" duration-ms="7339" started-at="2020-06-03T01:39:24Z" depends-on-methods="TEST.Testcases.Email_Creation" finished-at="2020-06-03T01:39:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_Account -->
+        <test-method status="PASS" signature="go_to_shopping()[pri:0, instance:TEST.Testcases@5b1d2887]" name="go_to_shopping" duration-ms="2438" started-at="2020-06-03T01:39:31Z" depends-on-methods="TEST.Testcases.create_Account" finished-at="2020-06-03T01:39:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- go_to_shopping -->
+        <test-method status="PASS" signature="Shopping_assertion()[pri:0, instance:TEST.Testcases@5b1d2887]" name="Shopping_assertion" duration-ms="44" started-at="2020-06-03T01:39:33Z" depends-on-methods="TEST.Testcases.go_to_shopping" finished-at="2020-06-03T01:39:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Shopping_assertion -->
+        <test-method status="PASS" signature="select_item()[pri:0, instance:TEST.Testcases@5b1d2887]" name="select_item" duration-ms="4537" started-at="2020-06-03T01:39:33Z" depends-on-methods="TEST.Testcases.Shopping_assertion" finished-at="2020-06-03T01:39:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_item -->
+        <test-method status="PASS" signature="checkout_summary()[pri:0, instance:TEST.Testcases@5b1d2887]" name="checkout_summary" duration-ms="1273" started-at="2020-06-03T01:39:38Z" depends-on-methods="TEST.Testcases.select_item" finished-at="2020-06-03T01:39:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout_summary -->
+        <test-method status="PASS" signature="checkout_address()[pri:0, instance:TEST.Testcases@5b1d2887]" name="checkout_address" duration-ms="1240" started-at="2020-06-03T01:39:39Z" depends-on-methods="TEST.Testcases.checkout_summary" finished-at="2020-06-03T01:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout_address -->
+        <test-method status="PASS" signature="checkout_shipping()[pri:0, instance:TEST.Testcases@5b1d2887]" name="checkout_shipping" duration-ms="1337" started-at="2020-06-03T01:39:40Z" depends-on-methods="TEST.Testcases.checkout_address" finished-at="2020-06-03T01:39:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout_shipping -->
+        <test-method status="PASS" signature="checkout_payment()[pri:0, instance:TEST.Testcases@5b1d2887]" name="checkout_payment" duration-ms="926" started-at="2020-06-03T01:39:42Z" depends-on-methods="TEST.Testcases.checkout_shipping" finished-at="2020-06-03T01:39:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout_payment -->
+        <test-method status="PASS" signature="checkout_CONFIRM()[pri:0, instance:TEST.Testcases@5b1d2887]" name="checkout_CONFIRM" duration-ms="1934" started-at="2020-06-03T01:39:43Z" depends-on-methods="TEST.Testcases.checkout_payment" finished-at="2020-06-03T01:39:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout_CONFIRM -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:TEST.Testcases@5b1d2887]" name="Logout" duration-ms="2126" started-at="2020-06-03T01:39:45Z" depends-on-methods="TEST.Testcases.checkout_CONFIRM" finished-at="2020-06-03T01:39:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="closing_browser()[pri:0, instance:TEST.Testcases@5b1d2887]" name="closing_browser" is-config="true" duration-ms="119" started-at="2020-06-03T01:39:47Z" finished-at="2020-06-03T01:39:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing_browser -->
+      </class> <!-- TEST.Testcases -->
+    </test> <!-- TimeOut -->
+  </suite> <!-- yarab2 -->
+</testng-results>

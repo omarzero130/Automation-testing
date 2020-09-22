@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="yarab2">
+
+    
+  
+
+
+
+    <test name="TimeOut">
+        <classes>
+            <class name="Test Packages.NewEmptyTestNGTest" />
+          
+        </classes>
+    </test>
+   
+    
+    <test name="All tests for yarab2">
+        <packages>
+            <package name="Test Packages"/>
+        </packages>
+    </test>
+
+</suite>

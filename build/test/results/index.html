@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-yarab2">
+              <span class="suite-name border-passed">yarab2</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-yarab2">
+                    <span>C:\Users\omar shalaby\Desktop\android\yarab2\build\test\classes\TEST\Testing.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-yarab2">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-yarab2">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-yarab2">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-yarab2">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-yarab2">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-yarab2">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-yarab2" class="hide-methods passed suite-yarab2"> (hide)</a> <!-- hide-methods passed suite-yarab2 -->
+                      <a href="#" panel-name="suite-yarab2" class="show-methods passed suite-yarab2"> (show)</a> <!-- show-methods passed suite-yarab2 -->
+                    </span>
+                    <div class="method-list-content passed suite-yarab2">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-yarab2" title="TEST.Testcases" hash-for-method="Email_Creation">Email_Creation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-yarab2" title="TEST.Testcases" hash-for-method="LoginPageTitle">LoginPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-yarab2" title="TEST.Testcases" hash-for-method="Logout">Logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-yarab2" title="TEST.Testcases" hash-for-method="SIGN_IN_link">SIGN_IN_link</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-yarab2" title="TEST.Testcases" hash-for-method="Shopping_assertion">Shopping_assertion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-yarab2" title="TEST.Testcases" hash-for-method="checkout_CONFIRM">checkout_CONFIRM</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-yarab2" title="TEST.Testcases" hash-for-method="checkout_address">checkout_address</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-yarab2" title="TEST.Testcases" hash-for-method="checkout_payment">checkout_payment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-yarab2" title="TEST.Testcases" hash-for-method="checkout_shipping">checkout_shipping</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-yarab2" title="TEST.Testcases" hash-for-method="checkout_summary">checkout_summary</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-yarab2" title="TEST.Testcases" hash-for-method="create_Account">create_Account</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-yarab2" title="TEST.Testcases" hash-for-method="go_to_shopping">go_to_shopping</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-yarab2" title="TEST.Testcases" hash-for-method="homeTitleAssert">homeTitleAssert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-yarab2" title="TEST.Testcases" hash-for-method="select_item">select_item</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-yarab2 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-yarab2" class="panel yarab2">
+          <div class="suite-yarab2-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TEST.Testcases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Email_Creation">
+                  </a> <!-- Email_Creation -->
+                  <span class="method-name">Email_Creation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPageTitle">
+                  </a> <!-- LoginPageTitle -->
+                  <span class="method-name">LoginPageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Logout">
+                  </a> <!-- Logout -->
+                  <span class="method-name">Logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SIGN_IN_link">
+                  </a> <!-- SIGN_IN_link -->
+                  <span class="method-name">SIGN_IN_link</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Shopping_assertion">
+                  </a> <!-- Shopping_assertion -->
+                  <span class="method-name">Shopping_assertion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkout_CONFIRM">
+                  </a> <!-- checkout_CONFIRM -->
+                  <span class="method-name">checkout_CONFIRM</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkout_address">
+                  </a> <!-- checkout_address -->
+                  <span class="method-name">checkout_address</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkout_payment">
+                  </a> <!-- checkout_payment -->
+                  <span class="method-name">checkout_payment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkout_shipping">
+                  </a> <!-- checkout_shipping -->
+                  <span class="method-name">checkout_shipping</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkout_summary">
+                  </a> <!-- checkout_summary -->
+                  <span class="method-name">checkout_summary</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="create_Account">
+                  </a> <!-- create_Account -->
+                  <span class="method-name">create_Account</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="go_to_shopping">
+                  </a> <!-- go_to_shopping -->
+                  <span class="method-name">go_to_shopping</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homeTitleAssert">
+                  </a> <!-- homeTitleAssert -->
+                  <span class="method-name">homeTitleAssert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="select_item">
+                  </a> <!-- select_item -->
+                  <span class="method-name">select_item</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-yarab2-class-passed -->
+        </div> <!-- panel yarab2 -->
+        <div panel-name="test-xml-yarab2" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\omar shalaby\Desktop\android\yarab2\build\test\classes\TEST\Testing.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;yarab2&quot;&gt;
+  &lt;test name=&quot;TimeOut&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TEST.Testcases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TimeOut --&gt;
+&lt;/suite&gt; &lt;!-- yarab2 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-yarab2" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for yarab2</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TimeOut (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-yarab2" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for yarab2</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-yarab2" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for yarab2</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_yarab2');
+function tableData_yarab2() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'create_Account')
+data.setCell(0, 2, 'TEST.Testcases')
+data.setCell(0, 3, 7339);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'select_item')
+data.setCell(1, 2, 'TEST.Testcases')
+data.setCell(1, 3, 4537);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'SIGN_IN_link')
+data.setCell(2, 2, 'TEST.Testcases')
+data.setCell(2, 3, 2690);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'go_to_shopping')
+data.setCell(3, 2, 'TEST.Testcases')
+data.setCell(3, 3, 2438);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Logout')
+data.setCell(4, 2, 'TEST.Testcases')
+data.setCell(4, 3, 2126);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checkout_CONFIRM')
+data.setCell(5, 2, 'TEST.Testcases')
+data.setCell(5, 3, 1934);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkout_shipping')
+data.setCell(6, 2, 'TEST.Testcases')
+data.setCell(6, 3, 1337);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'checkout_summary')
+data.setCell(7, 2, 'TEST.Testcases')
+data.setCell(7, 3, 1273);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'checkout_address')
+data.setCell(8, 2, 'TEST.Testcases')
+data.setCell(8, 3, 1240);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkout_payment')
+data.setCell(9, 2, 'TEST.Testcases')
+data.setCell(9, 3, 926);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Email_Creation')
+data.setCell(10, 2, 'TEST.Testcases')
+data.setCell(10, 3, 741);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Shopping_assertion')
+data.setCell(11, 2, 'TEST.Testcases')
+data.setCell(11, 3, 44);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'LoginPageTitle')
+data.setCell(12, 2, 'TEST.Testcases')
+data.setCell(12, 3, 13);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'homeTitleAssert')
+data.setCell(13, 2, 'TEST.Testcases')
+data.setCell(13, 3, 10);
+window.suiteTableData['yarab2']= { tableData: data, tableDiv: 'times-div-yarab2'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 26 seconds</span>
+              <div id="times-div-yarab2">
+              </div> <!-- times-div-yarab2 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-yarab2" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for yarab2</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-yarab2" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-yarab2" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TEST.Testcases</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">openingbrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">homeTitleAssert</span>
+                <span class="method-start">11893 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SIGN_IN_link</span>
+                <span class="method-start">11905 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginPageTitle</span>
+                <span class="method-start">14596 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Email_Creation</span>
+                <span class="method-start">14609 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">create_Account</span>
+                <span class="method-start">15350 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">go_to_shopping</span>
+                <span class="method-start">22690 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Shopping_assertion</span>
+                <span class="method-start">25128 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">select_item</span>
+                <span class="method-start">25173 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkout_summary</span>
+                <span class="method-start">29711 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkout_address</span>
+                <span class="method-start">30984 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkout_shipping</span>
+                <span class="method-start">32224 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkout_payment</span>
+                <span class="method-start">33561 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkout_CONFIRM</span>
+                <span class="method-start">34488 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Logout</span>
+                <span class="method-start">36423 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closing_browser</span>
+                <span class="method-start">38549 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
